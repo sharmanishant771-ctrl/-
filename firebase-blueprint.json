@@ -1,0 +1,21 @@
+{
+  "entities": {
+    "DistrictPersonnel": {
+      "collection": "district_personnel",
+      "fields": {
+        "name": { "type": "string", "required": true },
+        "designation": { "type": "string", "required": true },
+        "category": { "type": "string", "required": true },
+        "thanaName": { "type": "string", "required": true },
+        "mobileNumber": { "type": "string", "required": true },
+        "cugNumber": { "type": "string", "required": false },
+        "dutyLocation": { "type": "string", "required": false },
+        "shiftTiming": { "type": "string", "required": false },
+        "email": { "type": "string", "required": false },
+        "isFavorite": { "type": "boolean", "required": false },
+        "notes": { "type": "string", "required": false },
+        "createdAt": { "type": "number", "required": false }
+      }
+    }
+  }
+}

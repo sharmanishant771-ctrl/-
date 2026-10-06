@@ -1,0 +1,11 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /district_personnel/{personnelId} {
+      allow read: if true;
+      allow create, update: if request.resource.data.name is string &&
+                               request.resource.data.mobileNumber is string;
+      allow delete: if true;
+    }
+  }
+}

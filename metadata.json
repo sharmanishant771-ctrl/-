@@ -1,0 +1,6 @@
+{
+  "name": "CCTNS डायरेक्टरी",
+  "description": "जिले के सभी थानों के सीसीटीएनएस ऑपरेटर, तकनीकी कर्मचारी, थाना प्रभारी व अधिकारियों की डायरेक्टरी व डायरेक्ट कॉलिंग ऐप",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
